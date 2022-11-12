@@ -1,47 +1,47 @@
-# Atlas Bots (Node-SDK)
+# Vipercord (Node-SDK)
 
 <hr />
 
 ## Install
 ```diff
-npm install atlas-bots
+npm install viper.js
 
 or
 
-npm install atlasbots@latest
+npm install viper.js@latest
 ```
 
 <hr />
 
 ## Usage
 ```js
-const { AtlasClient } = require("atlas-bots");
+const { ViperClient } = require("viper.js");
 
-const atlas = new AtlasClient({
+const viper = new ViperClient({
     auth: "Api key",
     botID: "Bot id"
 });
 
-atlas.post(SERVER_COUNT, SHARD_COUNT);
-atlas.log("Some Log Text so you know it Worked");
+viper.post(SERVER_COUNT,);
+viper.log("Some Log Text so you know it Worked");
 ```
 
 <hr />
 
 ## Example
 ```js
-const { AtlasClient } = require("atlas-bots");
+const { ViperClient } = require("ViperClient");
 
-const atlas = new AtlasClient({
+const viper = new ViperClient({
     auth: "AUTH_TOKEN", 
     botID: "819050202508890419"
 });
 
-atlas.post(client.guilds.cache.size, 0).catch((err) => {
-   atlas.atlasLogs(`Posting Stats has failed | Error: ${err}`);
+viper.post(client.guilds.cache.size, 0).catch((err) => {
+viper.viperLogs(`Posting Stats has failed | Error: ${err}`);
 });
 
-atlas.atlasLogs("Posted Stats Successfully");
+viper.viperLogs("Posted Stats Successfully");
 ```
 
 <hr />
