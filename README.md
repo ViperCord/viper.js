@@ -4,18 +4,18 @@
 
 ## Install
 ```diff
-npm install viper.js
+npm i @vipercord/viper.js
 
 or
 
-npm install viper.js@latest
+npm i @vipercord/viper.js@latest
 ```
 
 <hr />
 
 ## Usage
 ```js
-const { ViperClient } = require("viper.js");
+const { ViperClient } = require("@vipercord/viper.js");
 
 const viper = new ViperClient({
     auth: "Api key",
@@ -30,7 +30,7 @@ viper.log("Some Log Text so you know it Worked");
 
 ## Example
 ```js
-const { ViperClient } = require("ViperClient");
+const { ViperClient } = require("@vipercord/viper.js");
 
 const viper = new ViperClient({
     auth: "AUTH_TOKEN", 
