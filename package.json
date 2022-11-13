@@ -1,7 +1,7 @@
 {
   "name": "@vipercord/viper.js",
   "description": "Official Node SDK for the Vipercord Bot List API",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
