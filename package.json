@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ayanaware/logger": "^2.2.1",
+    "@ayanaware/logger": "^2.3.1",
     "node-fetch": "2.6.1"
   },
   "devDependencies": {
